@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formulario de Contacto</title>
+    <link href="../PracticaCorreo/css/form.css" rel="stylesheet" />
+    <link href="../PracticaCorreo/css/nav1.css" rel="stylesheet" />
+
+</head>
+
+<body background="../PracticaCorreo/img/fondo01.jpg" bgcolor="FFCECB">
+    <form action="../PracticaCorreo/enviar.php" method="POST" >
+        <h2>Contacto</h2>
+        <!-- <input type="text" name="nombre" placeholder="Nombre" required> -->
+        <input type="text" name="remitente" placeholder="Remitente" required>
+        <!-- <input type="text" name="telefono" placeholder="Telefono" required> -->
+        <input type="text" name="asunto" placeholder="Asunto" required>
+        <input type="text" name="destino" placeholder="Destinatario" required>
+        <textarea name="mensaje" placeholder="Escriba su mensaje aqui." required></textarea>
+        <input type="submit" value="ENVIAR" id="boton">
+    </form>
+    <div id="regresar">
+            <a href="../PracticaCorreo/correosusuario.php"</a><h1>Regresar</h1></a>
+            </div> <!-- fin opcion-->
+    <div text-align:center;>
+            <footer class="footer">
+                    <p>&#8226; Mark Daniel Orellana Carpio &#8226; Universidad Politecnica Salesiana</p>
+                    <p>Email: <a href="markore2013@gmail.com">markore2013@gmail.com</a></p>
+                    <a href="tel:+0989884540">0989884540</a>
+                    <p>&copy; Todos los derechos reservados.</p>
+                </footer>
+            </div>
+</body>
+
+</html>

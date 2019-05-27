@@ -1,0 +1,48 @@
+form.clase1 {
+    /* Sólo para centrar el formulario a la página */
+    margin: 100px;
+    width: 300px;
+    height: 150px;
+    /* Para ver el borde del formulario */
+    padding: 3em;
+    border: 3px solid #CCC;
+    border-radius: 1em;
+    outline: none;
+}
+form.clase2 {
+    /* Sólo para centrar el formulario a la página */
+    margin: 100px;
+    width: 300px;
+    height: 400px;
+    /* Para ver el borde del formulario */
+    padding: 3em;
+    border: 3px solid #CCC;
+    border-radius: 1em;
+    outline: none;
+}
+label {
+    /* Para asegurarse que todos los labels tienen el mismo tamaño y están alineados correctamente */
+    display: inline-block;
+    width: 160px;
+    text-align: right;
+    font:2em sans-serif;
+    color: aliceblue;
+}
+.button {
+    /* Para posicionar los botones a la misma posición que los campos de texto */
+    padding-left: 90px; /* mismo tamaño a todos los elementos label */
+}
+button {
+    /* Este margen extra representa aproximadamente el mismo espacio que el espacio
+       entre los labels y sus campos de texto */
+    margin-left: .5em;
+}
+input {
+width : 300px;
+margin: 10;
+font:1em sans-serif;
+
+-webkit-box-sizing: border-box; /* For legacy WebKit based browsers */
+   -moz-box-sizing: border-box; /* For legacy (Firefox <29) Gecko based browsers */
+        box-sizing: border-box;
+}

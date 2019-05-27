@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crear Nuevo Usuario</title>
+    <link href="../PracticaCorreo/css/style.css" rel="stylesheet" />
+</head>
+
+<body background="../PracticaCorreo/img/call.jpg" bgcolor="FFCECB">
+    <form CLASS="clase2" id="formulario01" method="POST" action="../PracticaCorreo/crear_usuario.php">
+        <label for="cedula">Cedula:</label>
+        <input type="text" id="cedula" name="cedula" value="" placeholder="Ingrese # de cedula." required /><br>
+        <label for="nombres">Nombres:</label>
+        <input type="text" id="nombres" name="nombres" value="" placeholder="Ingrese sus 2 nombres." required /><br>
+        <label for="telefono">Telefono:</label>
+        <input type="text" id="telefono" name="telefono" value="" placeholder="Ingrese su # telefonico." required /><br>
+        <label for="correo">C.Electronico:</label>
+        <input type="email" id="correo" name="correo" value="" placeholder="Ingrese su correo Electronico."
+            required /><br>
+        <label for="contrasena">Contrasena:</label>
+        <input type="password" id="contrasena" name="contrasena" value="" placeholder="Ingrese su Contrasena."
+            required /><br>
+        <input type="submit" id="crear" name="crear" value="Aceptar" />
+        <input type="reset" id="cancelar" name="cancelar" value="Cancelar" />
+        <div id="regresar">
+            <a href="../PracticaCorreo/login.html"</a><h1>Regresar</h1></a>
+            </div> <!-- fin opcion-->
+    </form>
+    
+</body>
+
+</html>
